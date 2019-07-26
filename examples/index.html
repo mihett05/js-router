@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Router</title>
+        <link rel="stylesheet" href="/style.css"/>
+    </head>
+    <body>
+        <header>
+            <a path="/" class="RouterLink">index</a>
+            <a path="/news" class="RouterLink">news</a>
+            <a path="/lol" class="RouterLink">Lol</a>
+        </header>
+        <div id="router">
+            <div path="/">
+                <h1>Index</h1>
+            </div>
+            <div path="/news">
+                <h1>News</h1>
+            </div>
+            <div path="/lol" from="http://localhost:3000/api/"></div>
+            <div path="*">
+                <h1>404</h1>
+            </div>
+        </div>
+        <script src="/router.js"></script>
+    </body>
+</html>

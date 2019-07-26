@@ -1,0 +1,8 @@
+.RouterLink {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.RouterLink:hover {
+    color: blueviolet;
+}

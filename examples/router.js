@@ -34,4 +34,4 @@ Router.findRoutes();
 // Adding scripts here
 
 Router.makeLinks();
-Router.goTo(window.location.pathname); // Render the current page
+Router.goTo(window.location.pathname);
