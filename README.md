@@ -64,6 +64,11 @@ Example:
 You can set router's config. You can set only routing mode yet. You need to set `Route.config` to configure router.
 
 `Route.config` is object, that have one key: `mode` and 2 parameters: `"history"` or `"href"`.
+
+`history` - in this mode the router use History API to routing, and pages will be upadting withoue updating of site page in browser.
+
+`href` - in this mode the router use `window.location.href` for transition to pages. 
+
 ```
 Route.config = {mode: "history" | "href"}
 ```
